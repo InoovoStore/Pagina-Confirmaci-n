@@ -1,0 +1,44 @@
+<!-- fallo.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pago Fallido</title>
+  <style>
+    body {
+      background: #ffebee;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #c62828;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    .emoji {
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">❌</div>
+    <h1>Pago fallido</h1>
+    <p>No se pudo procesar tu pago. Intenta nuevamente o comunicate con soporte.</p>
+  </div>
+</body>
+</html>
