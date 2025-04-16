@@ -14,14 +14,31 @@
       justify-content: center;
       height: 100vh;
       color: #2e7d32;
+      text-align: center;
     }
     h1 {
       font-size: 2em;
     }
+    a {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2e7d32;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
   </style>
+  <script>
+    // Redirecciona automáticamente a los 5 segundos
+    setTimeout(() => {
+      window.location.href = "https://tubot.com"; // 👉 reemplazar por URL del bot
+    }, 5000);
+  </script>
 </head>
 <body>
   <h1>✅ ¡Gracias! Tu pago fue exitoso.</h1>
   <p>En breve recibirás la confirmación.</p>
+  <p>Si no sos redirigido automáticamente, hacé clic aquí:</p>
+  <a href="https://tubot.com">Volver al Bot</a> <!-- 👉 reemplazar -->
 </body>
 </html>
