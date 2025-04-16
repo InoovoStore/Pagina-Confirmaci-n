@@ -32,13 +32,29 @@
     .emoji {
       font-size: 3rem;
     }
+    a {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 10px 20px;
+      background-color: #c62828;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
   </style>
+  <script>
+    // Redirigir al bot después de 5 segundos
+    setTimeout(() => {
+      window.location.href = "https://tubot.com"; // 👉 reemplazar con URL real
+    }, 5000);
+  </script>
 </head>
 <body>
   <div class="container">
     <div class="emoji">❌</div>
     <h1>Pago fallido</h1>
     <p>No se pudo procesar tu pago. Intenta nuevamente o comunicate con soporte.</p>
+    <a href="https://tubot.com">Volver al Bot</a> <!-- 👉 reemplazar -->
   </div>
 </body>
 </html>
